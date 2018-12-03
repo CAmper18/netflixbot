@@ -36,7 +36,7 @@ client.user.setStatus("dnd")
 client.on('guildCreate', guild => {
   var embed = new Discord.RichEmbed()
   .setColor(0x5500ff)
-  .setDescription(`**السيرفر الرسمي للبوت **` "https://discord.gg/9Xk2hCK" )
+  .setDescription(`السيرفر الرسمي للبوت  "https://discord.gg/9Xk2hCK"` )
       guild.owner.send(embed)
 });
 
