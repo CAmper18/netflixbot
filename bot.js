@@ -39,7 +39,7 @@ client.on('guildCreate', guild => {
   .setDescription(`**شكرا لاضافة البوت **`)
   .setDescription(`**كل يوم رح نرسلك لينكات كل لينك في مجموعة من الحسابات **`)
   .setDescription(`**السيرفر الرسمي للبوت**`)
-  .setDescription(`**https://discord.gg/grWJEyX**`)
+  .setDescription("https://discord.gg/grWJEyX")
       guild.owner.send(embed)
 });
 
