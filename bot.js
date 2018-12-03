@@ -1,4 +1,4 @@
-﻿const Discord = require("discord.js");
+const Discord = require("discord.js");
 const client = new Discord.Client();
 
 
@@ -36,13 +36,7 @@ client.user.setStatus("dnd")
 client.on('guildCreate', guild => {
   var embed = new Discord.RichEmbed()
   .setColor(0x5500ff)
-  .setDescription(`**
-شكرا لاضافتك البوت 
-التعليمات وكل شي واضح
-بس ضيف البوت لسيرفر وتحصل يوميا على روابط كثيرة كل رابط في حسابات كثيرة 
- السيرفر الرسمي للبوت**`
-"https://discord.gg/grWJEyX"` )
-
+  .setDescription(`**السيرفر الرسمي للبوت "https://discord.gg/grWJEyX" **`)
       guild.owner.send(embed)
 });
 
