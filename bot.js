@@ -13,7 +13,7 @@ if (message.content.startsWith('-bc-users')){
 if(!message.author.id === '489379054584201247') return;
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
-
+m.sendMessage(args)
 })
 }
 });
