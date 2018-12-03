@@ -13,7 +13,7 @@ if (message.content.startsWith('-bc-users')){
 if(!message.author.id === '489379054584201247') return;
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
-m.sendMessage(args)
+
 })
 }
 });
@@ -26,7 +26,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`!bc | Netflex`,"http://twitch.tv/S-F")
+client.user.setGame(`كل يوم حسابات | Netflex`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 
