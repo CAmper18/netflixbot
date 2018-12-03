@@ -21,12 +21,12 @@ m.sendMessage(args)
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : i1Suhaib`);
+      console.log(`Desert Bot- Script By, DEX`);
         console.log(`----------------`);
       console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`كل يوم حسابات | Netflex`,"http://twitch.tv/S-F")
+client.user.setGame(`كل يوم حسابات | Netflex`,"http://www.twitch.tv/KiNg66S")
 client.user.setStatus("dnd")
 });
 
@@ -36,8 +36,10 @@ client.user.setStatus("dnd")
 client.on('guildCreate', guild => {
   var embed = new Discord.RichEmbed()
   .setColor(0x5500ff)
-  .setDescription(`**شكراً لك لإضافه البوت الى سيرفرك**`)
-  .setDescription(`**شكراً لك لإضافه البوت الى سيرفرك**`)
+  .setDescription(`**شكرا لاضافة البوت **`)
+  .setDescription(`**كل يوم رح نرسلك لينكات كل لينك في مجموعة من الحسابات **`)
+  .setDescription(`**السيرفر الرسمي للبوت**`)
+  .setDescription(`**https://discord.gg/grWJEyX**`)
       guild.owner.send(embed)
 });
 
