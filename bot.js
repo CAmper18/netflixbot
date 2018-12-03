@@ -43,7 +43,6 @@ client.on('guildCreate', guild => {
  السيرفر الرسمي للبوت**`
 "https://discord.gg/grWJEyX"
 )
-  .setDescription("https://discord.gg/grWJEyX")
       guild.owner.send(embed)
 });
 
