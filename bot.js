@@ -41,7 +41,7 @@ client.on('guildCreate', guild => {
 التعليمات وكل شي واضح
 بس ضيف البوت لسيرفر وتحصل يوميا على روابط كثيرة كل رابط في حسابات كثيرة 
  السيرفر الرسمي للبوت**`
-"https://discord.gg/grWJEyX" )
+"https://discord.gg/grWJEyX"` )
 
       guild.owner.send(embed)
 });
